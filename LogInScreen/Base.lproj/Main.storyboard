@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RdA-md-aZf">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Manual Auto Layout-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LogInScreen" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,16 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5XF-b4-Rok" userLabel="PopupBackground" customClass="BackgroundView" customModule="LogInScreen" customModuleProvider="target">
-                                <rect key="frame" x="16" y="264" width="343" height="294"/>
+                                <rect key="frame" x="16" y="239.66666666666663" width="343" height="294"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eba-rP-tBp">
-                                        <rect key="frame" x="16" y="157" width="74" height="16"/>
+                                        <rect key="frame" x="16" y="157.00000000000003" width="74" height="16"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
                                         <color key="textColor" red="0.28235294117647058" green="0.32156862745098036" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCi-8j-MA6">
-                                        <rect key="frame" x="16" y="218" width="311" height="44"/>
+                                        <rect key="frame" x="16" y="218.00000000000003" width="311" height="43.999999999999972"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="yax-Wt-tDL"/>
                                         </constraints>
@@ -38,7 +38,7 @@
                                         </state>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="contact@example.com" textAlignment="natural" minimumFontSize="17" background="textfield-background" translatesAutoresizingMaskIntoConstraints="NO" id="nUT-86-AUp" customClass="CustomTextField" customModule="LogInScreen" customModuleProvider="target">
-                                        <rect key="frame" x="98" y="91" width="229" height="44"/>
+                                        <rect key="frame" x="98" y="91.000000000000028" width="229" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="nNB-ro-eio"/>
                                         </constraints>
@@ -47,7 +47,7 @@
                                         <textInputTraits key="textInputTraits" textContentType="username"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" background="textfield-background" translatesAutoresizingMaskIntoConstraints="NO" id="3Fw-e9-ktL" customClass="CustomTextField" customModule="LogInScreen" customModuleProvider="target">
-                                        <rect key="frame" x="98" y="143" width="229" height="44"/>
+                                        <rect key="frame" x="98" y="143.00000000000003" width="229" height="44"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="xxk-eW-lTf"/>
                                         </constraints>
@@ -56,13 +56,13 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWU-Qs-zBr">
-                                        <rect key="frame" x="137" y="32" width="69" height="27"/>
+                                        <rect key="frame" x="137" y="32.000000000000028" width="69" height="27"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                         <color key="textColor" red="0.25098039215686274" green="0.27058823529411763" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MA8-Pi-0Fd">
-                                        <rect key="frame" x="16" y="105" width="74" height="16"/>
+                                        <rect key="frame" x="16" y="105.00000000000003" width="74" height="16"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
                                         <color key="textColor" red="0.28235294117647058" green="0.32156862745098036" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -73,8 +73,9 @@
                                     <constraint firstItem="MA8-Pi-0Fd" firstAttribute="leading" secondItem="5XF-b4-Rok" secondAttribute="leading" constant="16" id="4hI-Ny-65b"/>
                                     <constraint firstItem="MA8-Pi-0Fd" firstAttribute="centerY" secondItem="nUT-86-AUp" secondAttribute="centerY" id="6LA-KC-sBz"/>
                                     <constraint firstAttribute="bottom" secondItem="vCi-8j-MA6" secondAttribute="bottom" constant="32" id="Cyh-F7-Ly1"/>
-                                    <constraint firstItem="fWU-Qs-zBr" firstAttribute="top" secondItem="5XF-b4-Rok" secondAttribute="top" constant="32" id="Dwj-VH-7vO"/>
+                                    <constraint firstItem="fWU-Qs-zBr" firstAttribute="centerX" secondItem="vCi-8j-MA6" secondAttribute="centerX" id="EvO-r8-UMP"/>
                                     <constraint firstItem="nUT-86-AUp" firstAttribute="leading" secondItem="3Fw-e9-ktL" secondAttribute="leading" id="F3f-E9-siP"/>
+                                    <constraint firstItem="fWU-Qs-zBr" firstAttribute="top" secondItem="5XF-b4-Rok" secondAttribute="topMargin" id="F6B-ay-Ba8"/>
                                     <constraint firstItem="eba-rP-tBp" firstAttribute="centerY" secondItem="3Fw-e9-ktL" secondAttribute="centerY" id="Pvw-b6-zjZ"/>
                                     <constraint firstItem="vCi-8j-MA6" firstAttribute="leading" secondItem="5XF-b4-Rok" secondAttribute="leading" constant="16" id="S0s-bF-XK3"/>
                                     <constraint firstItem="nUT-86-AUp" firstAttribute="leading" secondItem="MA8-Pi-0Fd" secondAttribute="trailing" constant="8" id="SYU-lK-YeY"/>
@@ -83,16 +84,14 @@
                                     <constraint firstAttribute="trailing" secondItem="vCi-8j-MA6" secondAttribute="trailing" constant="16" id="arj-lH-C5o"/>
                                     <constraint firstItem="eba-rP-tBp" firstAttribute="leading" secondItem="5XF-b4-Rok" secondAttribute="leading" constant="16" id="eIh-el-UCk"/>
                                     <constraint firstItem="vCi-8j-MA6" firstAttribute="top" secondItem="3Fw-e9-ktL" secondAttribute="bottom" constant="31" id="g5S-Mi-z8G"/>
-                                    <constraint firstItem="fWU-Qs-zBr" firstAttribute="centerX" secondItem="5XF-b4-Rok" secondAttribute="centerX" id="iK1-14-U9V"/>
                                     <constraint firstAttribute="trailing" secondItem="3Fw-e9-ktL" secondAttribute="trailing" constant="16" id="m24-to-6Qe"/>
                                     <constraint firstAttribute="trailing" secondItem="nUT-86-AUp" secondAttribute="trailing" constant="16" id="o3P-Jm-NkG"/>
-                                    <constraint firstItem="nUT-86-AUp" firstAttribute="top" secondItem="fWU-Qs-zBr" secondAttribute="bottom" constant="32" id="ply-CN-qR3"/>
                                     <constraint firstItem="3Fw-e9-ktL" firstAttribute="leading" secondItem="eba-rP-tBp" secondAttribute="trailing" constant="8" id="tO4-1E-Lkw"/>
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="32" left="16" bottom="32" right="16"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbI-e8-W6r">
-                                <rect key="frame" x="107" y="569" width="161" height="30"/>
+                                <rect key="frame" x="107" y="544.66666666666663" width="161" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Forgot your password?"/>
                             </button>
@@ -107,12 +106,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Manual Auto Layout" id="aqa-z1-T4U"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133.59999999999999" y="135.96059113300493"/>
+            <point key="canvasLocation" x="1220" y="135.96059113300493"/>
         </scene>
-        <!--View Controller-->
+        <!--Stack Views-->
         <scene sceneID="Fns-wB-UYT">
             <objects>
                 <viewController id="QeY-Eo-ska" customClass="ViewController" customModule="LogInScreen" customModuleProvider="target" sceneMemberID="viewController">
@@ -218,10 +218,29 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="I8P-H0-K9b"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Stack Views" id="Kc4-fC-g86"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LpM-Vw-Zny" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="998" y="136"/>
+            <point key="canvasLocation" x="1940" y="135.96059113300493"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dmG-S1-aOX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="RdA-md-aZf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Teg-Rr-C1e">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="o1j-Li-Am5"/>
+                        <segue destination="QeY-Eo-ska" kind="relationship" relationship="viewControllers" id="6qf-Kb-DlZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hY2-oP-Eho" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="277.60000000000002" y="135.96059113300493"/>
         </scene>
     </scenes>
     <resources>
