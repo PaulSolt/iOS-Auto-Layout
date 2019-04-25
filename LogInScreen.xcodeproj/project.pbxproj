@@ -12,6 +12,7 @@
 		BDB6280922721553004ED1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB6280722721553004ED1B6 /* Main.storyboard */; };
 		BDB6280B22721555004ED1B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB6280A22721555004ED1B6 /* Assets.xcassets */; };
 		BDB6280E22721555004ED1B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB6280C22721555004ED1B6 /* LaunchScreen.storyboard */; };
+		BDB62816227215C0004ED1B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BDB62815227215C0004ED1B6 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BDB6280A22721555004ED1B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDB6280D22721555004ED1B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDB6280F22721555004ED1B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB62815227215C0004ED1B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		BDB627F722721553004ED1B6 = {
 			isa = PBXGroup;
 			children = (
+				BDB62815227215C0004ED1B6 /* README.md */,
 				BDB6280222721553004ED1B6 /* LogInScreen */,
 				BDB6280122721553004ED1B6 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				BDB6280E22721555004ED1B6 /* LaunchScreen.storyboard in Resources */,
 				BDB6280B22721555004ED1B6 /* Assets.xcassets in Resources */,
+				BDB62816227215C0004ED1B6 /* README.md in Resources */,
 				BDB6280922721553004ED1B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
