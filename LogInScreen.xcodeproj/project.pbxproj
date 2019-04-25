@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD40A64F22722A8500EB0F35 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A64D22722A8500EB0F35 /* BackgroundView.swift */; };
+		BD40A65022722A8500EB0F35 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD40A64E22722A8500EB0F35 /* CustomTextField.swift */; };
 		BDB6280422721553004ED1B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6280322721553004ED1B6 /* AppDelegate.swift */; };
 		BDB6280622721553004ED1B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6280522721553004ED1B6 /* ViewController.swift */; };
 		BDB6280922721553004ED1B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB6280722721553004ED1B6 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD40A64D22722A8500EB0F35 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BD40A64E22722A8500EB0F35 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		BDB6280022721553004ED1B6 /* LogInScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDB6280322721553004ED1B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDB6280522721553004ED1B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				BDB6280322721553004ED1B6 /* AppDelegate.swift */,
 				BDB6280522721553004ED1B6 /* ViewController.swift */,
 				BDB6280722721553004ED1B6 /* Main.storyboard */,
+				BD40A64D22722A8500EB0F35 /* BackgroundView.swift */,
+				BD40A64E22722A8500EB0F35 /* CustomTextField.swift */,
 				BDB6280A22721555004ED1B6 /* Assets.xcassets */,
 				BDB6280C22721555004ED1B6 /* LaunchScreen.storyboard */,
 				BDB6280F22721555004ED1B6 /* Info.plist */,
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD40A65022722A8500EB0F35 /* CustomTextField.swift in Sources */,
+				BD40A64F22722A8500EB0F35 /* BackgroundView.swift in Sources */,
 				BDB6280622721553004ED1B6 /* ViewController.swift in Sources */,
 				BDB6280422721553004ED1B6 /* AppDelegate.swift in Sources */,
 			);
